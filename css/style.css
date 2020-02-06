@@ -1,0 +1,38 @@
+pre {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card {
+    width: 41rem;
+    margin-top: 20px;
+}
+
+@keyframes breatheAnimation {
+    0%   { opacity: 1; }
+    37%  { opacity: 0; }
+    75%  { opacity: 1; }
+}
+@-o-keyframes breatheAnimation {
+    0%   { opacity: 1; }
+    37%  { opacity: 0; }
+    75%  { opacity: 1; }
+}
+@-moz-keyframes breatheAnimation {
+    0%   { opacity: 1; }
+    37%  { opacity: 0; }
+    75%  { opacity: 1; }
+}
+@-webkit-keyframes breatheAnimation {
+    0%   { opacity: 1; }
+    37%  { opacity: 0; }
+    75%  { opacity: 1; }
+}
+
+.animate-breathe {
+    -webkit-animation: breatheAnimation 2s infinite;
+    -moz-animation: breatheAnimation 2s infinite;
+    -o-animation: breatheAnimation 2s infinite;
+    animation: breatheAnimation 2s infinite;
+}
