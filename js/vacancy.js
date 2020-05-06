@@ -43,7 +43,7 @@ const updateFormatPreview = () => {
     let vacancyApplicationFormURL = $('#vacancyApplicationFormURLField').val();
 
     // The first shortcode is used to style the page and display the deadline on the vacancies page.
-    let formattedBody = '[wbcr_text_snippet id="8245"]' + vacancyDeadline + ' Deadline ...............[/wbcr_text_snippet]\n';
+    let formattedBody = '[wbcr_text_snippet id="8245"]' + vacancyDeadline + ' Deadline .........................[/wbcr_text_snippet]\n';
     formattedBody += '[wbcr_php_snippet id="7863"';
 
     // Add deadline.
